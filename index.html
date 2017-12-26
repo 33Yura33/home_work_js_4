@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p>Example of text #1</p>
+	<p>Example of text #2</p>
+	<img src="http://designshack.co.uk/wp-content/uploads/jqplugs-11.jpg">
+	
+	<p id="countclick">Колицество кликов = </p>
+	<input type="button" id="myButton1" onclick="ClickCount()" value="Кнопка подсчёта кликов 1" />
+	<input type="button" id="myButton2" onclick="ClickCount()" value="Кнопка подсчёта кликов 2" />
+	<br>
+	<br>
+	Число<input type="input" id="chislodliastepeni" />
+	Степень<input type="input" id="stepen" />
+	<input type="button" id="myButtonStepen" onclick="CountStepen()" value="Посчитать степень" />
+
+		<br><br>Game
+		<p id="kolpopytok">Количество попыток = 0 </p>
+		Введите число<input type="input" id="enterchislo" />
+	<input type="button" id="myButtonOtgadat" onclick="OtgadaiChislo()" value="Отгадать число" />
+	<br><br>
+	<input type="button" onclick="SetPRed()" value="Задать всем параграфам крассный бэкграунд">
+	<br><br>
+	<input type="button" onclick="SetShadow()" value="Задать тень изображению">
+	<br><br>
+	<input type="text" id="tag" placeholder="Введите тег">
+	<input type="button" onclick="tagBorder()" value="Подчеркнуть введённый тэг">
+	<br><br>
+	<input type="text" id="age" placeholder="Введите возраст">
+	<input type="button" value="Функция 'Возраст'" onclick="funcAge()">
+	<br><br>
+	<input type="text" id="chislo" placeholder="Введите число для задания 10">
+	<input type="button" value="Функция 'Число'" onclick="funcChislo()">
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
